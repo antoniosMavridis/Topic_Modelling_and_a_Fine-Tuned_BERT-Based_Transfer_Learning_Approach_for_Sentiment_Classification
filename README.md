@@ -1,6 +1,8 @@
-# Antonios_Mavridis_Dissertation <img src="images/logo_Unipi.png" width="55" height="55" /> </br>
+# Topic Modelling and a Fine-Tuned BERT-Based Transfer Learning Approach for Sentiment Classification of Financial News Feed 
 
-Topic Modelling and a Fine-Tuned BERT-Based Transfer Learning Approach for Sentiment Classification of Financial News Feed
+
+This is a repository for my bachelor's thesis - Topic Modelling and a Fine-Tuned BERT-Based Transfer Learning Approach for Sentiment Classification of Financial News Feed - as part of the B.Sc. in Digital Systems at University of Piraeus. 
+
 <img src="images/cover.png" width="1000"  /> </br>
 
 
@@ -18,7 +20,6 @@ The focus of our thesis is the application of pre-trained language models on fin
 
 ## Organization of the Repository
 
-### code
 
 The `Topic_Modelling` directory contains three sub-directories: `01_CEOs_Tweets_Scraping`, `02_Preprocessing_CEO_Tweets`, and `03_Applying_Topic_Modeling`. These contain the code for the three workflows. In each subdirectory:
 
