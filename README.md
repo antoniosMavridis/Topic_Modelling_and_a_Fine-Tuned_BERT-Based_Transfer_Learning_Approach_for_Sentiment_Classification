@@ -14,3 +14,24 @@ Nowadays, vast amount of people opinion on different topics is openly available 
 Big data's impact on the emergence of financial texts has presented challenges for most organizations and increased need for analytical tools. Text streams are typically more difficult to manage than numeric data streams. Despite their natural lack of order, text streams reflect collective expressions that are valuable in making any financial choice. Making sense of unstructured textual material can be difficult but also vital. 
 
 The focus of our thesis is the application of pre-trained language models on financial text classification with the combination of topic modelling techniques. The relationship between sentiment derived from the social media platform Twitter and financial markets is examined in this dissertation. We examine important issues connected to the surge in interest in unstructured data insight extraction and how to assess if such insight offers any clues about the patterns of financial markets. One of the topics it seeks to address is whether or whether sentiment gleaned from social media can be used to predict future values of financial assets.
+
+
+## Organization of the Repository
+
+### code
+
+The `Topic_Modelling` directory contains three sub-directories: `01_CEOs_Tweets_Scraping`, `02_Preprocessing_CEO_Tweets`, and `03_Applying_Topic_Modeling`. These contain the code for the three workflows. In each subdirectory:
+
+* `01_CEOs_Tweets_Scraping` contains the source code `CEOs_Tweets_Scraping.ipynb` that extracts tweets about diffferent CEOs and create the first dataset. 
+* `02_Preprocessing_CEO_Tweets` contains the source code `CEO_Preprocessing.ipynb` that defines the preprocessing process in order to clean the tweets and make a dataset about Michael Dell, Chairman and CEO of DELL Technology Company;
+* `03_Applying_Topic_Modeling` contains the source code `CEO_Applying_Topic_Modelling.ipynb` that defines the implementantion and experimantation of topic modelling.
+
+In parallel the `Sentiment_Analysis` directory contains five sub-directories: `01_Dataset_From_Kaggle`, `02_Financial_News_Preprocessing`, and `03_Scraping_tweets_for_Dell_Company`, `04_Tweets_Preprocessing_for_Dell_Company` and `05_Fine_Tuning_and_Insights_Extraction` . These contain the code for the five workflows. In each subdirectory:
+
+* `01_Dataset_From_Kaggle` containts the `data.csv` that is an open source dataset from Kaggle and we used it in order to implement fine-tuning in financial news.
+* `02_Financial_News_Preprocessing` containts the source code `Financial_News_Preprocessing.ipynb` that defines the preprocessing process in order to clean the financial news from Kaggle.
+* `03_Scraping_tweets_for_Dell_Company` containts the source code `Tweets_Scraping_For_Dell_Company.ipynb` that extracts tweets about DELL Inc. and create the third dataset. 
+* `04_Tweets_Preprocessing_for_Dell_Company` containts the source code `Tweets_Preprocessing_For_Dell_Company.ipynb` that defines the preprocessing process in order to clean the tweets.
+* `05_Fine_Tuning_and_Insights_Extraction` contains the source code `Sentiment_Analysis_with_BERT_Based_Fine_Tuned_Models.ipynb` that defines the implementantion and experimantation of fine-tuning, sentiment analysis, and insights extraction.
+
+
