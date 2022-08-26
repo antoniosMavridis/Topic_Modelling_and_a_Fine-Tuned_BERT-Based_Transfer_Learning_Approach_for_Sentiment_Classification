@@ -1,5 +1,7 @@
-# Antonios_Mavridis_Dissertation
+# Antonios_Mavridis_Dissertation <img src="images/logo_Unipi.png" width="55" height="55" /> </br>
+
 Topic Modelling and a Fine-Tuned BERT-Based Transfer Learning Approach for Sentiment Classification of Financial News Feed
+<img src="images/cover.png" width="1000"  /> </br>
 
 
 ## Abstract 
