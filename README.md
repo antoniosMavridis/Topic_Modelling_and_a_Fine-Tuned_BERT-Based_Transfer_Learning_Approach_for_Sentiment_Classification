@@ -1,7 +1,7 @@
 # Topic Modelling and a Fine-Tuned BERT-Based Transfer Learning Approach for Sentiment Classification of Financial News Feed 
 
 
-This is a repository for my bachelor's thesis - Topic Modelling and a Fine-Tuned BERT-Based Transfer Learning Approach for Sentiment Classification of Financial News Feed - as part of the B.Sc. in Digital Systems at University of Piraeus. 
+This is a repository for my bachelor's thesis "Topic Modelling and a Fine-Tuned BERT-Based Transfer Learning Approach for Sentiment Classification of Financial News Feed" as part of the B.Sc. in Digital Systems at University of Piraeus. 
 
 <img src="images/cover.png" width="1000"  /> </br>
 
